@@ -1,0 +1,22 @@
+{
+    "name": "rekid/api-php",
+    "description": "projetcApi",
+    "autoload": {
+        "psr-4": {
+            "ApiPHP\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "reki desma haldi",
+            "email": "rekidesmahaldi24@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "serve": [
+            "Composer\\Config::disableProcessTimeout",
+            "@php -S localhost:8000 -t ." 
+        ]
+    }
+}
