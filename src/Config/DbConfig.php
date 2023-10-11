@@ -7,9 +7,9 @@ class DbConfig
    private $host = 'localhost'; // Ganti sesuai dengan host MySQL Anda
    private $username = 'root'; // Ganti sesuai dengan username MySQL Anda
    private $password = ''; // Ganti sesuai dengan password MySQL Anda
-   private $database = 'nama_database'; // Ganti sesuai dengan nama database Anda
+   private $database = 'api-php'; // Ganti sesuai dengan nama database Anda
 
-   protected $connection;
+   public $connection;
 
    public function __construct()
    {

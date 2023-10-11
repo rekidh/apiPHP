@@ -11,4 +11,5 @@ $request_uri = $_SERVER['REQUEST_URI'];
 $request_method = $_SERVER['REQUEST_METHOD'];
 
 // Route permintaan saat ini
-RouterConfig::route($request_method, $request_uri);
+// RouterConfig::route($request_method, $request_uri);
+Router::route($request_method, $request_uri);
